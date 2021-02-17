@@ -1,4 +1,4 @@
-USE Backoffice;
+USE easygate;
 CREATE TABLE user (
     id integer not null auto_increment,
     is_active boolean not ,
