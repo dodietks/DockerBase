@@ -1,0 +1,5 @@
+# Usando a imagem oficial do MySql
+FROM mysql:5.7
+
+# Scripts a serem executados na criação do banco
+COPY ./db/ /docker-entrypoint-initdb.d/
