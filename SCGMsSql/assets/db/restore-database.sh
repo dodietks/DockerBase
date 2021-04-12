@@ -1,0 +1,1 @@
+RESTORE DATABASE Adventureworks FROM DISK = 'C:\DevSSD\Docker\DockerBase\SCGMsSql\assets\db\scg'
